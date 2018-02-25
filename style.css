@@ -1,0 +1,88 @@
+/* General styles */
+
+body {
+  font-family: sans-serif;
+}
+
+h2, h3 {
+  font-weight: normal;
+}
+
+h1, h2, h3 {
+  text-align: center;
+}
+
+section {
+  overflow: hidden;
+}
+
+p {
+  /* Uses the margin trick to center */
+  margin: 10px auto;
+  /*Sets a line height for the paragraphs*/
+  line-height: 1.4;
+  /* Styles for smaller screens */
+  max-width: 100%;
+}
+
+/* Headline and byline styles */
+
+h1.headline {
+  margin-bottom: 0px;
+}
+
+h2.byline {
+  margin-top: 0px;
+  margin-bottom: 5px;
+}
+
+/* Banner image styles */
+
+img.bannerImage {
+  display: block;
+  margin: 0px auto;
+  /* Styles for smaller screens */
+  max-width: 100%;
+  height: auto;
+}
+
+/* Character image styles */
+
+img.lunaImage, img.lucyImage {
+  /* Styles for smaller screens */
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 10px auto;
+}
+
+/* Styles for tablets */
+
+@media screen and (min-width: 600px) and (max-width: 1023px) {
+  p {
+    width: 75%;
+  }
+  img.bannerImage {
+    width: 600px;
+  }
+  img.lunaImage, img.lucyImage {
+    width: 600px;
+  }
+}
+
+/* Styles for desktop screens */
+
+@media screen and (min-width: 1024px) {
+  p {
+    max-width: 600px;
+  }
+  img.bannerImage {
+    width: 600px;
+  }
+  img.lunaImage, img.lucyImage {
+    float: right;
+    width: 300px;
+    margin-right: 300px;
+    margin-left: 10px;
+  }
+}
