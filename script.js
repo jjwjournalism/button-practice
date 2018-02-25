@@ -26,8 +26,9 @@
   		$("img.lunaImage").css("visibility", "visible");
 
   		/* Swaps buttons */
-  		$("#lunaButton").show();
   		$("#lunaButton2").hide();
+  		$("#lunaButton").show();
+
 
   	});
 
