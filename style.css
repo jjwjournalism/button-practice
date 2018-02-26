@@ -12,6 +12,16 @@ h1, h2, h3 {
   text-align: center;
 }
 
+h1, h3 {
+  color: #1f8d58;
+}
+
+/* h2 {
+
+  color: #52C08B;
+
+} */
+
 section {
   overflow: hidden;
 }
@@ -25,6 +35,20 @@ p {
   max-width: 100%;
 }
 
+button {
+  background-color: #1f8d58;
+  border: none;
+  font-size: 16px;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 4px;
+  outline: none;
+}
+
+button:hover {
+  background-color: #52C08B;
+}
+
 /* Headline and byline styles */
 
 h1.headline {
@@ -34,16 +58,6 @@ h1.headline {
 h2.byline {
   margin-top: 0px;
   margin-bottom: 5px;
-}
-
-/* Banner image styles */
-
-img.bannerImage {
-  display: block;
-  margin: 0px auto;
-  /* Styles for smaller screens */
-  max-width: 100%;
-  height: auto;
 }
 
 /* Character image styles */
